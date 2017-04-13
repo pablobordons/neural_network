@@ -3,7 +3,7 @@
 This repository contains a neural network implemented using **jupyter** and **numpy**, together with several notebooks guiding through the process of its development.
 
 <hr>
-## Interactive plots:
+# Interactive plots:
 
 In order to be able to visualize the plotly graphs, you need to access the notebooks from *nbviewer*.
 
@@ -16,7 +16,7 @@ In order to be able to visualize the plotly graphs, you need to access the noteb
 * [04 Neural Networks - ANN and MNIST](http://nbviewer.jupyter.org/github/pablobordons/neural_network/blob/master/04_ANN.ipynb)
 
 <br>
-## Script
+# Script
 
 In order to run the script (and the noteboks regarding MNIST) you need to store the MNIST dataset in a directory called 'data' contained in the same directory of the scripts and/or the notebooks.
 
@@ -24,5 +24,5 @@ The script can be called from the comand line and it loads the data set and trai
 
 The output of the script is as follows:
 
-<img src="script-output.png">
+![script output](script_output.png?raw=true "Script Output")
 <hr>
