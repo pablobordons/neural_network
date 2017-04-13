@@ -3,7 +3,6 @@ import struct
 import os
 
 
-
 class ANN(object):
     ''' 
     Artificial Network Class. 
@@ -209,7 +208,7 @@ class ANN(object):
         self.W2 = np.random.random((self.n_neurons + b, self.n_outputs))
    
 
-    
+
     # --------    Helper methods   ------------------------ #
     
     def sigmoid(self, t):
@@ -237,9 +236,6 @@ class ANN(object):
             return A[offset:n,:]
         if axis == 1: # chop columns
             return A[:,offset:n,]
-
-        
-
 
 
 def load_mnist(data_path=None):
@@ -367,7 +363,6 @@ def train_routine(n_train=1000, offset_train=0, train_steps=1000,
 
 
 if __name__ == "__main__":
-
 
     print("\n\n\tArtificial Neural Network training over the MNIST digit dataset.\n\n")
 
