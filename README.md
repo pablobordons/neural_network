@@ -25,4 +25,15 @@ The script can be called from the comand line and it loads the data set and trai
 The output of the script is as follows:
 
 ![script output](script_output.png?raw=true "Script Output")
-<hr>
+
+
+## References
+
+I used several sources to learn about neural networks and their implementation. The most important ones are:
+
+* [Andrew Ng Machine Learning Course](https://www.coursera.org/learn/machine-learning)
+
+* [Data Science from Scratch from Joel Grus](http://shop.oreilly.com/product/0636920033400.do)
+
+* [Neural Networks Demystified youtube series](https://www.youtube.com/watch?v=bxe2T-V8XRs)
+
